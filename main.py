@@ -16,8 +16,7 @@ def sentenceTransformer():
 def openai():
     print("Loading openai model")
     OPENAI_API_KEY = getpass()
-    os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
-    embeddings = OpenAIEmbeddings(openai_api_key="key-here")
+    embeddings = OpenAIEmbeddings(openai_api_key= os.environ["OPENAI_API_KEY"])
     return embeddings
 
 def huggingface():
