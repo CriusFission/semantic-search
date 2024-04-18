@@ -1,3 +1,5 @@
+### SEMANTIC SEARCH
+
 Semantic search using opensourse embeddings.
 
 OpenAI embeddings require API which can be added in the env file.
